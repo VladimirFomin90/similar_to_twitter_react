@@ -1,19 +1,23 @@
 import React from "react";
-import './post-add-form.css';
+import "./post-add-form.css";
 
-const PostAddForm = () => {
+const PostAddForm = ({ onAdd }) => {
     return (
-        <form className="bottom-panel d-flex">
+        <div className="bottom-panel d-flex">
             <input
                 type="text"
                 placeholder="поделитесь Вашими мыслями"
                 className="form-control new-post-label"
             />
 
-            <button type="submit" className="btn btn-outline-secondary">
+            <button
+                type="submit"
+                className="btn btn-outline-secondary"
+                onClick={() => onAdd("hello")}
+            >
                 добавить пост
             </button>
-        </form>
+        </div>
     );
 };
 
