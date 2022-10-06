@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/similar_to_twitter_react/static/css/main.a109a50b.css",
+    "main.js": "/similar_to_twitter_react/static/js/main.4f6e5063.js",
+    "index.html": "/similar_to_twitter_react/index.html",
+    "main.a109a50b.css.map": "/similar_to_twitter_react/static/css/main.a109a50b.css.map",
+    "main.4f6e5063.js.map": "/similar_to_twitter_react/static/js/main.4f6e5063.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a109a50b.css",
+    "static/js/main.4f6e5063.js"
+  ]
+}
